@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: 'https://lucky-items-pesadelos-frontend.onrender.com/',
+    origin: 'https://delightful-bombolone-8fe024.netlify.app/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
