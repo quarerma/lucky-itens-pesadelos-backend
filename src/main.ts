@@ -6,6 +6,7 @@ async function bootstrap() {
 
   app.enableCors({
     origin: 'https://delightful-bombolone-8fe024.netlify.app',
+    // origin: 'http://localhost:5173',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
